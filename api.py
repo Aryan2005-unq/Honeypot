@@ -16,7 +16,7 @@ from datetime import datetime, timedelta
 ES_HOST = "http://localhost:64298"
 INDEX_PATTERN = "logstash-*"
 # --- IMPORTANT: Add your Gemini API Key here ---
-GEMINI_API_KEY = "AIzaSyBxIDzqlhbCQxZWth026yIki54-_b5xzRs"
+GEMINI_API_KEY = "GEMINI_API_KEY"
 
 # --- Flask App & AI Cache Initialization ---
 app = Flask(__name__)
